@@ -1,0 +1,271 @@
+
+body{
+    background-image: url(./Images/paper_3.png);
+}
+
+.heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: 500px;
+    font-size: 60px;
+    text-align: center;
+    padding: 15px;
+}
+
+    .ultimate {
+        color: #106F25;
+    }
+
+    .stockholm {
+        color:#2317AC;
+    }
+
+    .gallery {
+        color:#7D1580 ;
+    }
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+}
+
+.name {
+    font-size: large;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.content {
+    font-size: medium;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact {
+    font-size: medium;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;  
+}
+
+.inpagelinks {
+    width: 200px;
+    text-align: center;
+    border: black;
+    border-style: solid;
+    border-radius: 30px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    padding: 10px;
+}
+
+ .inpagelinks a {
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+ .inpagelinks a:hover {
+    color: #D905B7;
+   }
+
+.inpagelinks:hover {
+    border-color:#D905B7;
+    transform: scale(1.1);
+}
+
+.inpagelinks ul li {
+    list-style: none;
+    position: relative;
+ }
+
+.inpagelinks ul li {
+    text-align: left;
+ }
+
+
+.inpagelinks ul li ul {
+    position: absolute;
+    display:none;
+}
+
+.inpagelinks ul li ul li {
+    width: 180px;
+    text-align: center;
+    border: black;
+    border-style: solid;
+    border-radius: 30px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    padding: 10px;
+    background-color: #cecbcbf3;
+    }
+
+.inpagelinks ul li ul li a {
+    font-weight: bold;
+}
+
+.inpagelinks ul li:hover ul {
+    display:inline;
+    border-color:#D905B7 ;
+}
+
+.inpagelinks ul li ul li:hover {
+    border-color:#D905B7 ;
+}
+
+.button-container {
+    display: flex;
+    justify-content:space-between;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    }
+
+.image-container {
+    width: 100%;
+    height:200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+   width: 300px;
+   height: 300px;
+   margin: 40px;
+   padding: 30px;
+   border-style: solid;
+   border-top-width: 10px;
+   border-bottom-width: 10px;
+   border-radius: 30px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.card1 {
+    border-color: #2317AC;
+    background-color: #C3C6FF;
+}
+
+.card2 {
+    border-color: #7D1580;
+    background-color: #FDCDFB;
+}
+
+.card3 {
+    border-color: #106F25;
+    background-color: #BBE7D2
+}
+
+.card4 {
+    border-color: #106F25;
+    background-color: #BBE7D2
+}
+
+.card5 {
+    border-color: #2317AC;
+    background-color: #C3C6FF;
+}
+
+.card6 {
+    border-color: #7D1580;
+    background-color: #FDCDFB;
+}
+
+.card1 h3, .card2 h3, .card3 h3, .card4 h3, .card5 h3,.card6 h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card1 h3 {
+    color: #2317AC;   
+} 
+
+.card2 h3 {
+    color:#7D1580;
+}
+
+.card3 h3 {
+    color: #106F25;
+}
+
+.card4 h3 {
+    color: #106F25;   
+} 
+
+.card5 h3 {
+    color: #2317AC;
+}
+
+.card6 h3 {
+    color:#7D1580;
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card1:hover {
+    background-color:#cecbcbf3;
+    box-shadow:1px 1px 30px #2317AC;
+    transform:scale(1.1) rotate(-10deg);
+}
+
+.card2:hover {
+    background-color:#cecbcbf3;
+    box-shadow:1px 1px 30px #7D1580;
+    transform: scale(1.2);
+}
+
+.card3:hover {
+    background-color:#cecbcbf3;
+    box-shadow:1px 1px 30px #106F25;
+    transform: scale(1.1) rotate(10deg);
+}
+
+.card4:hover {
+    background-color:#cecbcbf3;
+    box-shadow:1px 1px 30px #106F25;
+    transform:scale(1.1) rotate(-10deg);
+}
+
+.card5:hover {
+    background-color:#cecbcbf3;
+    box-shadow:1px 1px 30px #2317AC;
+    transform: scale(1.2);
+}
+
+.card6:hover {
+    background-color:#cecbcbf3;
+    box-shadow:1px 1px 30px #7D1580;
+    transform: scale(1.1) rotate(10deg);
+}
+
+img{
+    height: 200px;
+    width: 300px;  
+    object-fit: cover;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+.bottom-button-container{
+    display: flex;
+    justify-content: end;
+}
+
+
