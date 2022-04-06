@@ -15,7 +15,7 @@ DAY 1: [Start with cards]
 DAY 2: [Add styling with CSS]
 Now we can make our gallery good-looking! Here are some ideas to get you started (feel free to go beyond them):
 ● Change the Font Family of all the text elements. sans-serif or any custom font will do;
-● A card's <div> should have a class name “card”;
+● Every card should have a class name “card”;
 ● Each card's width should be 350px;
 ● Each image should fit into a card (hint: width: 100%);
 ● A card's title should be aligned to center;
