@@ -1,6 +1,8 @@
 # The-ultimate-Stockholm-Gallery
 Beetroot Academy - Intro to Tech
 
+Live Page URL: https://mirinkakotze.github.io/The-ultimate-Stockholm-Gallery/
+
 You'll be creating a minimalistic web page and view it in the browser!
 
 DAY 1: [Start with cards]
